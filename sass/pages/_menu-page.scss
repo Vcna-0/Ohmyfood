@@ -1,0 +1,25 @@
+.header__menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .9375rem;
+    padding: 1.5rem;
+    font-family: $font-secondary;
+}
+
+.header__menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu__background{
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
+}
+
+.menu__title{
+    font-family: $font-secondary;
+    display: flex;
+    justify-content: space-around;
+}
