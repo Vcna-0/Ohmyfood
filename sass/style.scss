@@ -115,3 +115,68 @@ $clr-tertiary: #99E2D0;
 .options__step-icon{
   opacity: 0.5;
 }
+
+.restaurants{
+  padding: 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #f6f6f6;
+}
+
+.cards{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.card{
+  margin: auto;
+  width: 100%;
+  background-color: white;
+  position: relative;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.card__img{
+  border-radius: 20px 20px 0 0;
+  height: 10.5rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card__tag{
+  position: absolute;
+  background-color: $clr-tertiary;
+  padding: 0.6rem;
+  right: 15px;
+  top: 15px;
+}
+
+.card__footer{
+  display: flex;
+  padding: .8rem .925rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__info{
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.card__like{
+  -webkit-text-fill-color: white; 
+  -webkit-text-stroke-width: 2.5px;
+  -webkit-text-stroke-color: black;  
+  cursor: pointer;
+  transition-duration: 0.7s;
+}
+
+.card__like:hover{
+  background: -webkit-gradient(linear, left bottom, left top, from( #9356DC), to(#FF79DA));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0px;
+}
