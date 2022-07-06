@@ -1,0 +1,43 @@
+footer {
+    @include flex-column;
+    padding: .9375rem;
+    gap: .9375rem;
+    background-color: #353535;
+}
+
+.footer__title {
+    font-family: $font-secondary;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+}
+
+.footer__list {
+    @include flex-column;
+    gap: 15px;
+    font-family: $font-primary;
+    list-style: none;
+}
+
+.footer__list a {
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.footer__icon {
+    margin-right: 15px;
+}
+
+@media only screen and (min-width: 1024px){
+    footer{
+        text-align: center;
+    }
+    
+    .footer__title{
+        font-size: 1.7rem;
+    }
+}

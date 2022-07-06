@@ -1,0 +1,20 @@
+// Header principal
+.title {
+    padding: 1.5rem;
+    text-align: center;
+    font-family: $font-secondary;
+}
+
+// Header des pages restaurant
+.header-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .9375rem;
+    font-family: $font-secondary;
+}
+
+.header-arrow a {
+    text-decoration: none;
+    color: black;
+}

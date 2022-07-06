@@ -1,11 +1,11 @@
-@import 'base/_variables';
-@import 'base/_reset';
+@import 'utilities/_variables';
+@import 'utilities/_mixins';
+@import 'utilities/_reset';
+
+@import 'layout/_header';
+@import 'layout/_footer';
 
 @import 'pages/_home-page';
 @import 'pages/_menu-page';
-
-// html{
-//   font-size: 70px;
-// }
 
 

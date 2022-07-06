@@ -1,11 +1,3 @@
-// HEADER
-.title{
-    padding: 1.5rem;
-    text-align: center;
-    font-family: $font-secondary;
-}
-
-// MAIN
 .location{
     display: flex;
     justify-content: center;
@@ -37,32 +29,20 @@ font-size: 1.4rem;
 }
 
 .hero__btn{
-    padding: 0.8rem 1.8rem;
-    font-size: 1.1rem;
-    font-weight: 500;
-    color: white;
-    border-radius: 50px;
-    border: none;
-    background-image: linear-gradient(to top, #9356DC 0%, #FF79DA 100%);
-    box-shadow: $box-shadow;
-    cursor: pointer;
-
+    @include btn-primary;
     &:hover{
-        opacity: 0.93;
-        box-shadow: 
-        0.3px 0.2px 0.4px rgba(50, 50, 93, 0.80),
-        1.3px 1.1px 1.8px -1.5px rgba(50, 50, 93, 0.80),
-        5.6px 4.4px 7.5px -3px rgba(50, 50, 93, 0.80);
+        @include btn-primary--hover;
     }
 }
 
 .selection{
     font-family: $font-primary; 
+    box-shadow: inset 0px 8px 6px -6px rgba(0, 0, 0, 0.24);
+
 }
 
 .options{
-    display: flex;
-    flex-direction: column;
+    @include flex-column;
     padding: 3rem 1rem 3rem 1.5rem;
     gap: 20px;
     counter-reset: stepList;
@@ -99,17 +79,15 @@ font-size: 1.4rem;
     opacity: 0.5;
 }
 
-.restaurants{
-    display: flex;
-    flex-direction: column;
+.restaurants__list{
+    @include flex-column;
     padding: 3rem 1rem;
     gap: 30px;
     background-color: #f6f6f6;
 }
 
-.cards{
-    display: flex;
-    flex-direction: column;
+.restaurants__cards{
+    @include flex-column;
     gap: 30px;
 }
 
@@ -147,14 +125,13 @@ font-size: 1.4rem;
 }
 
 .card__info{
-    display: flex;
-    flex-direction: column;
+    @include flex-column;
     gap: 0.4rem;
 }
 
 .card__like{
     -webkit-text-fill-color: white; 
-    -webkit-text-stroke-width: 2.5px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;  
     transition-duration: 0.7s;
     cursor: pointer;
@@ -167,39 +144,26 @@ font-size: 1.4rem;
     }
 }
 
-// FOOTER
-footer{
-    display: flex;
-    flex-direction: column;
-    padding: .9375rem;
-    gap: .9375rem;
-    background-color: #353535;
-}
 
-.footer__title{
-    font-family: $font-secondary;
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: white;
-}
+@media only screen and (min-width: 1024px) {
 
-.footer__list{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    font-family: $font-primary;
-    list-style: none;
-}
+    .selection {
+            display: flex;
+            gap: 4.5rem;
+            padding: 2rem;
+        }
 
-.footer__list a{
-    text-decoration: none;
-    color: white;
-
-    &:hover{
-        text-decoration: underline;
+    .options__step{
+        margin: 0;
     }
-}
 
-.footer__icon{
-    margin-right: 15px;
+    .restaurants__list{
+        flex: 1;
+        background-color: white;
+    }
+    .restaurants__cards {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
 }

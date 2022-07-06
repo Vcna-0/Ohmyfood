@@ -1,0 +1,25 @@
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin btn-primary {
+    padding: 0.8rem 1.8rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: white;
+    background-image: linear-gradient(to top, $clr-primary 0%, $clr-secondary 100%);
+    box-shadow: $box-shadow;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+@mixin btn-primary--hover {
+    opacity: 0.93;
+    box-shadow:
+        0.3px 0.2px 0.4px rgba(50, 50, 93, 0.80),
+        1.3px 1.1px 1.8px -1.5px rgba(50, 50, 93, 0.80),
+        5.6px 4.4px 7.5px -3px rgba(50, 50, 93, 0.80);
+}
+
