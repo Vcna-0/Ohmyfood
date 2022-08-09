@@ -71,8 +71,6 @@
     border-radius: 15px;
     opacity: 1;
     overflow: hidden;
-    animation: slideup 1s forwards;
-    animation-delay: 0s;
 
     &:hover .fa-circle-check {
         transform: rotate(0deg);
