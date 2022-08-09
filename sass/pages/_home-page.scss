@@ -28,13 +28,6 @@ font-size: 1.4rem;
     font-weight: 200;
 }
 
-.hero__btn{
-    @include btn-primary;
-    &:hover{
-        @include btn-primary--hover;
-    }
-}
-
 .selection{
     font-family: $font-primary; 
     box-shadow: inset 0px 8px 6px -6px rgba(0, 0, 0, 0.24);
