@@ -1,52 +1,46 @@
-.loading{
+.loading {
     position: fixed;
     width: 100%;
     height: 100%;
-    background-color: hsla(0, 0%, 99%, 0.808);
+    background-color: rgb(252, 252, 252);
     z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: fadeOut 3s ease-out;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
 }
 
 .loader {
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-    display: block;
-    margin: 15px auto;
-    position: relative;
-    box-sizing: border-box;
-    animation: rotation 1s linear infinite;
+    font-family: $font-secondary;
+    font-size: 100px;
+    background-image: linear-gradient(to left, $clr-tertiary, $clr-primary, $clr-secondary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-size: 400%;
+    background-position: 100%;
+    animation: animatedText 3s ease-in-out;
+    animation-fill-mode: forwards;
+    opacity: 1; 
 }
 
-.loader::after,
-.loader::before {
-    content: '';
-    box-sizing: border-box;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background: $clr-primary;
-    width: 16px;
-    height: 16px;
-    transform: translate(-50%, 50%);
-    border-radius: 50%;
-}
-
-.loader::before {
-    left: auto;
-    right: 0;
-    background: $clr-secondary;
-    transform: translate(50%, 100%);
-}
-
-@keyframes rotation {
-    0% {
-        transform: rotate(0deg);
+@keyframes animatedText {
+    0%{
+        background-position: 0%;
     }
-
-    100% {
-        transform: rotate(360deg);
+    50%{
+        background-position: -100%;
     }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes fadeOut {
+    100%{
+        opacity: 0;
+        z-index: -1000;
+    }  
 }
