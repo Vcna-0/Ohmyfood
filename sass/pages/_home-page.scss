@@ -66,6 +66,15 @@ font-size: 1.4rem;
         counter-increment: stepList 1;
         content: counter(stepList) " ";
     }
+
+    &:hover{
+        background-color: #9256dc2a;
+    }
+
+    &:hover .options__step-icon{
+        color: #9356DC;
+        opacity: 1;
+    }
 }
 
 .options__step-icon{
