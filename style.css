@@ -86,7 +86,7 @@ button:hover {
 
 .loader {
   font-family: "Shrikhand", cursive;
-  font-size: 100px;
+  font-size: 3rem;
   background-image: linear-gradient(to left, hsl(165deg, 56%, 74%), hsl(267deg, 66%, 60%), hsl(317deg, 100%, 74%));
   -webkit-background-clip: text;
   background-clip: text;
