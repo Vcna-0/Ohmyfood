@@ -71,14 +71,6 @@
     border-radius: 15px;
     opacity: 1;
     overflow: hidden;
-
-    &:hover .fa-circle-check {
-        transform: rotate(0deg);
-    }
-    &:hover  .menu__card-check {
-        width: 5rem;
-        opacity: 1;
-    }
 }
 
 .menu__card-header{
