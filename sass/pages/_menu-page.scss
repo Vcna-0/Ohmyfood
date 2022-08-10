@@ -113,11 +113,20 @@
     transition: 0.4s;
 }
 
+.menu__card:hover .menu__card-check {
+    width: 5rem;
+    opacity: 1;
+}
+
 .fa-circle-check{
     color: white;
-    transform: rotate(-180deg);
-    transition: 0.6s;
 }
+
+.menu__card:hover .fa-circle-check {
+    animation: rotate 0.4s ease-out 7ms forwards;
+}
+    
+
 
 @media only screen and (min-width: 1024px) {
     .menu__list{
@@ -133,6 +142,18 @@
         font-size: 1.5rem
     }
 
+}
+
+
+// KEYFRAMES 
+
+@keyframes rotate {
+    from{
+        transform: rotate(-300deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
 }
 
 @keyframes slideDown {
