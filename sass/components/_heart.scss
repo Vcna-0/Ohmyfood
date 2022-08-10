@@ -1,14 +1,44 @@
-.card__like {
-    -webkit-text-fill-color: white;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
-    transition-duration: 0.7s;
-    cursor: pointer;
 
-    &:hover {
-        background: -webkit-gradient(linear, left bottom, left top, from(#9356DC), to(#FF79DA));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -webkit-text-stroke-width: 0px;
-    }
+.card__like{
+ position: relative;
+}
+
+// HOME PAGE
+
+.heart-solid{
+    position: absolute;
+    left : 0px;
+    bottom: 0px;
+    transform: scale(0);
+    transition: 0.4s ease-in-out;
+    @include gradient-icon-heart;
+}
+
+.card__like:hover .heart-solid{
+    transform: scale(1);
+}
+
+.heart-regular{
+    transition: 0.3s ease-in;
+
+}
+
+.card__like:hover .heart-regular {
+    @include gradient-icon-heart;
+}
+
+
+// MENUS PAGES
+
+.heart-solid-menu {
+    position: absolute;
+    left: 0px;
+    bottom: 4px;
+    transform: scale(0);
+    transition: 0.4s ease-in-out;
+    @include gradient-icon-heart;
+}
+
+.card__like:hover .heart-solid-menu {
+    transform: scale(1);
 }
