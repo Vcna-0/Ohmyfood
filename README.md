@@ -8,7 +8,7 @@ Ma solution au __PROJET 3 - Dynamisez une page web avec des animations CSS__ du 
 ## Table des matières
 
 - [Le projet](#le-projet)
-  - [Le contexte](#le-contexte)
+  - [Contexte](#contexte)
   - [Éléments fournis pour la réalisation du projet](#éléments-fournis-pour-la-réalisation-du-projet)
   - [Cahier des charges](#cahier-des-charges)
   - [Palette de couleur](#palette-de-couleur)
