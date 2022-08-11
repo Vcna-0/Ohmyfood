@@ -54,7 +54,9 @@ Ma solution au __PROJET 3 - Dynamisez une page web avec des animations CSS__ du 
 * Footer
   * Le footer est identique sur toutes les pages
   * Au clic sur “Contact”, un renvoi vers une adresse mail est effectué
- 
+
+------------------------------------
+
 #### Effets graphiques et animations
 
 * Boutons
