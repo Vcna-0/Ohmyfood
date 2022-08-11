@@ -1,5 +1,7 @@
 # Projet 3 - Ohmyfood
 
+__EN COUR DE REDACTION__
+
 Ma solution au __PROJET 3 - Dynamisez une page web avec des animations CSS__ du parcours de formation __developpeur web__ chez Openclassroom.
 
 [Visiter le site](https://vcna-0.github.io/Ohmyfood/)
