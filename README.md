@@ -30,14 +30,14 @@ Ma solution au __PROJET 3 - Dynamisez une page web avec des animations CSS__ du 
 
 ** Indiquer ici le contexte du projet 
 
---
+--------------------------------------------------------------------------------------------------------
 
 ### Éléments fournis pour la réalisation du projet
 
 * Les maquettes de la version mobile 
 * Un cahier des charges
 
---
+--------------------------------------------------------------------------------------------------------
 
 ### Cahier des charges
 
