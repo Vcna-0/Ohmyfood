@@ -4,6 +4,7 @@ Ma solution au __PROJET 3 - Dynamisez une page web avec des animations CSS__ du 
 
 [Visiter le site](https://vcna-0.github.io/Ohmyfood/)
 
+
 ## Table des matières
 
 - [Le projet](#le-projet)
@@ -102,6 +103,10 @@ Texte → `Roboto`
 ## 🔨 Mon processus
 
 ### Outils et technologies utilisés
+
+* VScode
+* Firefox developer
+* Sass
 
 ### Ressources utiles
 
