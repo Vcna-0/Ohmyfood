@@ -40,7 +40,7 @@ Ma solution au __PROJET 3 - Dynamisez une page web avec des animations CSS__ du 
 
 ------------------------------------
 
-#### :arrow_right: Contenu des pages
+#### :large_blue_diamond: Contenu des pages
 * Header
   * Le header est présent sur toutes les pages
   * Sur la page d’accueil, il contient le logo du site
@@ -60,7 +60,7 @@ Ma solution au __PROJET 3 - Dynamisez une page web avec des animations CSS__ du 
 
 ------------------------------------
 
-#### :arrow_right: Effets graphiques et animations
+#### :large_blue_diamond: Effets graphiques et animations
 
 * Boutons
   * Au survol, la couleur de fond des boutons principaux devra légèrement s’éclaircir. L’ombre portée devra également être plus visible
@@ -75,7 +75,7 @@ Ma solution au __PROJET 3 - Dynamisez une page web avec des animations CSS__ du 
 
 ------------------------------------
 
-#### :arrow_right: Spécifications techniques
+#### :large_blue_diamond: Spécifications techniques
 
 * Le site doit être intégré en mobile first
 * L’ensemble du site devra être responsive sur mobile, tablette et desktop
@@ -96,7 +96,7 @@ Ma solution au __PROJET 3 - Dynamisez une page web avec des animations CSS__ du 
 
 ### Fonts
 
-Logo et titre → `Shrikhand`
+Logo et titre → `Shrikhand`  
 Texte → `Roboto`
 
 ## 🔨 Mon processus
