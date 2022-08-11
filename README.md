@@ -38,6 +38,8 @@ Ma solution au __PROJET 3 - Dynamisez une page web avec des animations CSS__ du 
 
 ### Cahier des charges
 
+------------------------------------
+
 #### Contenu des pages
 * Header
   * Le header est présent sur toutes les pages
@@ -88,9 +90,9 @@ Ma solution au __PROJET 3 - Dynamisez une page web avec des animations CSS__ du 
 
 ### Palette de couleur
 
-`#9356DC` → Couleur primaire
-`#FF79DA` → Couleur secondaire
-`#99E2D0` → Couleur tertiaire
+`#9356DC` → Couleur primaire  
+`#FF79DA` → Couleur secondaire  
+`#99E2D0` → Couleur tertiaire  
 
 ### Fonts
 
