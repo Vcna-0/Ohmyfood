@@ -1,6 +1,8 @@
-# Formation developpeur web - OPENCLASSROOM
+# Projet 3 - Ohmyfood
 
-Il s'agit d'une solution au [Indiquer le numéro de projet et son nom](https://vcna-0.github.io/Booki/) du parcours de formation __developpeur web__ chez Openclassroom.
+Ma solution au __PROJET 3 - Dynamisez une page web avec des animations CSS__ du parcours de formation __developpeur web__ chez Openclassroom.
+
+[Visiter le site](vcna-0.github.io/ohmyfood/)
 
 ## Table des matières
 
@@ -12,12 +14,14 @@ Il s'agit d'une solution au [Indiquer le numéro de projet et son nom](https://v
   - [Palette de couleur](#palette-de-couleur)
   - [Fonts](#fonts)
 - [Mon processus](#mon-processus)
-  - [Outils utilisés](#outils-utilisé)
+  - [Outils et technologies utilisés](#outils-et-technologies-utilisés)
+  - [Les difficultés rencontrées](#Les-difficultés-rencontrées)
   - [Ressources utiles](#ressources-utiles)
 - [Livrables](#livrables)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
+  - [Compétences évaluées](#compétences-évaluées)
   - [Notes sur la réalisation](#notes-sur-la-réalisation)
-- - [Auteur](#auteur)
+- [Auteur](#auteur)
 
 
 
@@ -26,6 +30,8 @@ Il s'agit d'une solution au [Indiquer le numéro de projet et son nom](https://v
 ### Contexte
 
 ** Indiquer ici le contexte du projet 
+
+### Éléments fournis pour la réalisation du projet
 
 ### Cahier des charges
 
@@ -37,25 +43,53 @@ Il s'agit d'une solution au [Indiquer le numéro de projet et son nom](https://v
 
 ### Palette de couleur
 
+ →
+
 ### Fonts
 
-## 🏗️ Mon processus
+## 🔨 Mon processus
 
-### Outils utilisés
+### Outils et technologies utilisés
 
 ### Ressources utiles
 
-## 🎉 Livrables
+## 📚 Livrables
 
-### Screenshot
+### Screenshots
+
+<details>
+  <summary>Desktop</summary>
+  <p align="center">
+    <img src="" alt=""/>
+  </p>
+  <p align="center">
+    <img src="" alt=""/>
+  </p>
+</details>
+
+<details>
+  <summary>Tablette</summary>
+  <p align="center">
+    <img src="" alt=""/>
+  </p>
+  <p align="center">
+    <img src="" alt=""/>
+  </p>
+</details>
+
+<details>
+  <summary>Mobile</summary>
+  <p align="center">
+    <img src="" alt=""/>
+  </p>
+  <p align="center">
+    <img src="" alt=""/>
+  </p>
+</details>
 
 ### Notes sur la réalisation
 
-## Auteur
+## 👷 Auteur
 
-- Github - [Add your name here](https://www.your-site.com)
-- LinkedIn - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-
-
+- Github - [Noëmie](https://github.com/Vcna-0)
+- Twitter - [@Noëmie](https://twitter.com/Odymonie)
