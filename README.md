@@ -38,9 +38,9 @@ Ma solution au __PROJET 3 - Dynamisez une page web avec des animations CSS__ du 
 
 ### Cahier des charges
 
-* Contenu des pages
-  * Page d’accueil (x1)
-    ** Affichage de la localisation des restaurants. À terme il sera possible de choisir sa localisation pour trouver des restaurants proches d’un certain lieu
+####Contenu des pages
+* Page d’accueil (x1)
+  * Affichage de la localisation des restaurants. À terme il sera possible de choisir sa localisation pour trouver des restaurants proches d’un certain lieu
 
 
 ### Contraintes
