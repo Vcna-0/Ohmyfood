@@ -2,7 +2,7 @@
 
 Ma solution au __PROJET 3 - Dynamisez une page web avec des animations CSS__ du parcours de formation __developpeur web__ chez Openclassroom.
 
-[Visiter le site](vcna-0.github.io/ohmyfood/)
+[Visiter le site](https://vcna-0.github.io/Ohmyfood/)
 
 ## Table des matières
 
@@ -33,19 +33,35 @@ Ma solution au __PROJET 3 - Dynamisez une page web avec des animations CSS__ du 
 
 ### Éléments fournis pour la réalisation du projet
 
+* Les maquettes de la version mobile 
+* Un cahier des charges
+
 ### Cahier des charges
 
-** Indiquer ici le cahier des charges
+* Contenu des pages
+  * Page d’accueil (x1)
+    ** Affichage de la localisation des restaurants. À terme il sera possible de choisir sa localisation pour trouver des restaurants proches d’un certain lieu
+
 
 ### Contraintes
 
-*** indiquer ici les contraintes
+* Le site doit être intégré en mobile first
+* Le développement devra se faire en CSS, sans JavaScript
+* Aucun framework ne devra être utilisé, en revanche l’utilisation de SASS serait un plus
+* Aucun code CSS ne devra être appliqué via un attribut style dans une balise HTML
+* Tout le code doit être versionné sur GitHub et le site devra être accessible sur Github Pages une fois terminé
+
 
 ### Palette de couleur
 
- →
+`#9356DC` → Couleur primaire
+`#FF79DA` → Couleur secondaire
+`#99E2D0` → Couleur tertiaire
 
 ### Fonts
+
+Logo et titre → `Shrikhand`
+Texte → `Roboto`
 
 ## 🔨 Mon processus
 
