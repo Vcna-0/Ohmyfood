@@ -30,14 +30,11 @@ Ma solution au __PROJET 3 - Dynamisez une page web avec des animations CSS__ du 
 
 ** Indiquer ici le contexte du projet 
 
---------------------------------------------------------------------------------------------------------
 
 ### Éléments fournis pour la réalisation du projet
 
 * Les maquettes de la version mobile 
 * Un cahier des charges
-
---------------------------------------------------------------------------------------------------------
 
 ### Cahier des charges
 
@@ -87,6 +84,7 @@ Ma solution au __PROJET 3 - Dynamisez une page web avec des animations CSS__ du 
 * Le site doit être parfaitement compatible avec les dernières versions desktop de Chrome et Firefox
 * Tout le code doit être versionné sur GitHub et le site devra être accessible sur Github Pages une fois terminé
 
+------------------------------------
 
 ### Palette de couleur
 
