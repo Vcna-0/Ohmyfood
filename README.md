@@ -109,9 +109,16 @@ Texte → `Roboto`
 
 * VScode
 * Firefox developer
-* Sass
+* Utilisation de Sass
+* Utilisation des keyframes pour les animations
+* Flexbox
+* Importation des icones avec fontAwesome
+* Importation des fonts avec googleFont
 
 ### Ressources utiles
+
+* [Sass Guidelines](https://sass-guidelin.es/fr/)
+* [Grafikart - formation Sass](https://grafikart.fr/formations/sass-preprocesseur)
 
 ## 📚 Livrables
 
