@@ -31,13 +31,13 @@ Ma solution au __PROJET 3 - Dynamisez une page web avec des animations CSS__ du 
 
 ### Contexte
 
-** Indiquer ici le contexte du projet 
-
+L'objectif est d'integrer un site multipage proposant le menu de 4 grands restaurants, d'y intégrer des effets CSS avancés en utilisant le préprocesseur Sass et d'assurer la cohérence graphique à tout niveau en responsive
 
 ### Éléments fournis pour la réalisation du projet
 
 * Les maquettes de la version mobile 
 * Un cahier des charges
+* Les images
 
 ### Cahier des charges
 
