@@ -6,12 +6,14 @@
 
 .restaurant{
     position: relative;
+    top: -40px;
     @include flex-column;
     gap: 2.5rem;
     padding: 2rem 1rem;
     margin-top: -0.625rem;
     font-family: $font-primary;
     background-color: #f6f6f6;
+    border-radius: 50px 50px 0px 0px;
 }
 
 .restaurant__title{
