@@ -474,10 +474,10 @@ footer {
 }
 @keyframes rotate {
   from {
-    transform: rotate(-300deg);
+    transform: rotate(0deg);
   }
   to {
-    transform: rotate(0deg);
+    transform: rotate(360deg);
   }
 }
 @keyframes slideDown {
