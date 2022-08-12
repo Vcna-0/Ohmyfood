@@ -336,12 +336,11 @@ footer {
 
 .restaurant {
   position: relative;
-  top: -40px;
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
   padding: 2rem 1rem;
-  margin-top: -0.625rem;
+  margin-top: -2.625rem;
   font-family: "Roboto", sans-serif;
   background-color: #f6f6f6;
   border-radius: 50px 50px 0px 0px;
