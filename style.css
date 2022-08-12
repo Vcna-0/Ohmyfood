@@ -457,7 +457,7 @@ footer {
 }
 
 .menu__card:hover .fa-circle-check {
-  animation: rotate 0.4s ease-out 7ms forwards;
+  animation: rotate 0.4s ease-out 0.1s forwards;
 }
 
 @media only screen and (min-width: 1024px) {
