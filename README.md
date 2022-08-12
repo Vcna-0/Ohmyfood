@@ -18,7 +18,6 @@ Ma solution au __PROJET 3 - Dynamisez une page web avec des animations CSS__ du 
   - [Fonts](#fonts)
 - [Mon processus](#mon-processus)
   - [Outils et technologies utilisés](#outils-et-technologies-utilisés)
-  - [Les difficultés rencontrées](#Les-difficultés-rencontrées)
   - [Ressources utiles](#ressources-utiles)
 - [Livrables](#livrables)
   - [Screenshots](#screenshots)
@@ -153,6 +152,8 @@ Texte → `Roboto`
     <img src="" alt=""/>
   </p>
 </details>
+
+### Compétences évaluées
 
 ### Notes sur la réalisation
 
