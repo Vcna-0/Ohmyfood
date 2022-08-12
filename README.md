@@ -6,6 +6,7 @@ Ma solution au __PROJET 3 - Dynamisez une page web avec des animations CSS__ du 
 
 [Visiter le site](https://vcna-0.github.io/Ohmyfood/)
 
+![Ohmyfood](./img/logo/Booki.png) 
 
 ## Table des matières
 
