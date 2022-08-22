@@ -280,6 +280,10 @@ footer {
   text-decoration: none;
   color: black;
   box-shadow: 0.3px 0.2px 0.4px rgba(50, 50, 93, 0.25), 1.3px 1.1px 1.8px -1.5px rgba(50, 50, 93, 0.25), 5.6px 4.4px 7.5px -3px rgba(50, 50, 93, 0.25);
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: scale(1.04);
 }
 
 .card__img {
