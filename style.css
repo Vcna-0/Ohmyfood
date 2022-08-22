@@ -310,6 +310,12 @@ footer {
   gap: 0.4rem;
 }
 
+@media only screen and (min-width: 768px) {
+  .restaurants__cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
 @media only screen and (min-width: 1024px) {
   .selection {
     display: flex;
@@ -322,10 +328,6 @@ footer {
   .restaurants__list {
     flex: 1;
     background-color: white;
-  }
-  .restaurants__cards {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 .background-restaurant {
