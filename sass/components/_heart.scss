@@ -1,41 +1,41 @@
 .card__like {
-    position: relative;
+  position: relative;
 
-    &:hover .heart-solid {
-        transform: scale(1);
-    }
+  &:hover .heart-solid {
+    transform: scale(1);
+  }
 
-    &:hover .heart-regular {
-        @include gradient-icon-heart;
-    }
+  &:hover .heart-regular {
+    @include gradient-icon-heart;
+  }
 
-    &:hover .heart-solid-menu {
-        transform: scale(1);
-    }
+  &:hover .heart-solid-menu {
+    transform: scale(1);
+  }
 }
 
 // HOME PAGE ==========
 
 .heart-solid {
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    @include gradient-icon-heart;
-    transform: scale(0);
-    transition: 0.4s ease-in-out;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  @include gradient-icon-heart;
+  transform: scale(0);
+  transition: 0.4s ease-in-out;
 }
 
 .heart-regular {
-    transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
 }
 
 // MENUS PAGES ==========
 
 .heart-solid-menu {
-    position: absolute;
-    left: 0px;
-    bottom: 4px;
-    @include gradient-icon-heart;
-    transform: scale(0);
-    transition: 0.4s ease-in-out;
+  position: absolute;
+  left: 0px;
+  bottom: 4px;
+  @include gradient-icon-heart;
+  transform: scale(0);
+  transition: 0.4s ease-in-out;
 }

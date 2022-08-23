@@ -1,169 +1,169 @@
 .background-restaurant {
-    width: 100%;
-    height: 25rem;
-    object-fit: cover;
+  width: 100%;
+  height: 25rem;
+  object-fit: cover;
 }
 
 // SECTION RESTAURANT ==========
 
 .restaurant {
-    position: relative;
-    @include flex-column;
-    gap: 2.5rem;
-    padding: 2rem 1rem;
-    margin-top: -2.625rem;
-    font-family: $font-primary;
-    background-color: #f6f6f6;
-    border-radius: 50px 50px 0px 0px;
+  position: relative;
+  @include flex-column;
+  gap: 2.5rem;
+  padding: 2rem 1rem;
+  margin-top: -2.625rem;
+  font-family: $font-primary;
+  background-color: #f6f6f6;
+  border-radius: 50px 50px 0px 0px;
 }
 
 .restaurant__title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: $font-secondary;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: $font-secondary;
 }
 
 // MENUS ==========
 
 .menu__list {
-    @include flex-column;
-    gap: 3rem;
+  @include flex-column;
+  gap: 3rem;
 }
 
 .menu__starters,
 .menu__main,
 .menu__dessert {
-    @include flex-column;
-    gap: 1rem;
-    opacity: 0;
-    animation: slideDown 0.8s forwards;
+  @include flex-column;
+  gap: 1rem;
+  opacity: 0;
+  animation: slideDown 0.8s forwards;
 }
 
 .menu__starters {
-    animation-delay: 0s;
+  animation-delay: 0s;
 }
 
 .menu__main {
-    animation-delay: 0.3s;
+  animation-delay: 0.3s;
 }
 
 .menu__dessert {
-    animation-delay: 0.6s;
+  animation-delay: 0.6s;
 }
 
 .menu__category {
-    text-transform: uppercase;
-    font-weight: 400;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
 .menu__category::after {
-    content: '';
-    display: block;
-    width: 2.5rem;
-    height: 0.2rem;
-    margin-top: 0.5rem;
-    background-color: $clr-tertiary;
+  content: '';
+  display: block;
+  width: 2.5rem;
+  height: 0.2rem;
+  margin-top: 0.5rem;
+  background-color: $clr-tertiary;
 }
 
 .menu__card {
-    display: flex;
-    background: white;
-    box-shadow: $box-shadow;
-    border-radius: 15px;
-    opacity: 1;
-    overflow: hidden;
+  display: flex;
+  background: white;
+  box-shadow: $box-shadow;
+  border-radius: 15px;
+  opacity: 1;
+  overflow: hidden;
 }
 
 .menu__card-header {
-    display: flex;
-    justify-content: space-between;
-    flex: 1;
-    gap: 1rem;
-    padding: 1.5rem;
-    overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  gap: 1rem;
+  padding: 1.5rem;
+  overflow: hidden;
 }
 
 .menu__card-text {
-    @include flex-column;
-    justify-content: space-between;
-    overflow: hidden;
-    white-space: nowrap;
+  @include flex-column;
+  justify-content: space-between;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .menu__card-text p,
 .menu__card-text h4 {
-    text-overflow: ellipsis;
-    overflow: hidden;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .menu__card-price {
-    align-self: flex-end;
-    font-weight: 500;
+  align-self: flex-end;
+  font-weight: 500;
 }
 
 // ANIMATION CHECK ==========
 
 .menu__card-check {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 0;
-    height: auto;
-    background-color: #99e2d0;
-    opacity: 0;
-    transition: 0.4s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 0;
+  height: auto;
+  background-color: #99e2d0;
+  opacity: 0;
+  transition: 0.4s;
 }
 
 .menu__card:hover .menu__card-check {
-    width: 5rem;
-    opacity: 1;
+  width: 5rem;
+  opacity: 1;
 }
 
 .fa-circle-check {
-    color: white;
+  color: white;
 }
 
 .menu__card:hover .fa-circle-check {
-    animation: rotate 0.4s ease-out 0.1s forwards;
+  animation: rotate 0.4s ease-out 0.1s forwards;
 }
 
 // MEDIA QUERIES ==========
 
 @media only screen and (min-width: 1024px) {
-    .menu__list {
-        display: grid;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
+  .menu__list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 
-    .restaurant {
-        padding: 2rem 2rem;
-    }
+  .restaurant {
+    padding: 2rem 2rem;
+  }
 
-    .restaurant__title {
-        font-size: 1.5rem;
-    }
+  .restaurant__title {
+    font-size: 1.5rem;
+  }
 }
 
 // KEYFRAMES ==========
 
 @keyframes rotate {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes slideDown {
-    from {
-        transform: translateY(-20px);
-        opacity: 0%;
-    }
+  from {
+    transform: translateY(-20px);
+    opacity: 0%;
+  }
 
-    to {
-        transform: translateY(-0px);
-        opacity: 100%;
-    }
+  to {
+    transform: translateY(-0px);
+    opacity: 100%;
+  }
 }

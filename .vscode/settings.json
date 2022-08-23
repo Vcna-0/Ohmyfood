@@ -1,4 +1,14 @@
-{
-  "editor.formatOnSave": true,
-  "liveServer.settings.port": 5501
-}
+
+  {
+    "editor.formatOnSave": true,
+    "liveServer.settings.port": 5501,
+
+    
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+  
+
+  }
+

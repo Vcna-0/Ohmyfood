@@ -30,7 +30,7 @@ button:hover {
   transform: scale(1);
 }
 .card__like:hover .heart-regular {
-  background: -webkit-gradient(linear, left bottom, left top, from(#9356DC), to(#FF79DA));
+  background: -webkit-gradient(linear, left bottom, left top, from(#9356dc), to(#ff79da));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 0px;
@@ -43,7 +43,7 @@ button:hover {
   position: absolute;
   left: 0px;
   bottom: 0px;
-  background: -webkit-gradient(linear, left bottom, left top, from(#9356DC), to(#FF79DA));
+  background: -webkit-gradient(linear, left bottom, left top, from(#9356dc), to(#ff79da));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 0px;
@@ -59,7 +59,7 @@ button:hover {
   position: absolute;
   left: 0px;
   bottom: 4px;
-  background: -webkit-gradient(linear, left bottom, left top, from(#9356DC), to(#FF79DA));
+  background: -webkit-gradient(linear, left bottom, left top, from(#9356dc), to(#ff79da));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 0px;
