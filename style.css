@@ -236,8 +236,8 @@ footer {
   color: #fafafa;
   background-color: #9356dc;
   border-radius: 100px;
-  counter-increment: stepList 1;
   content: counter(stepList) " ";
+  counter-increment: stepList 1;
 }
 .options__step:hover {
   background-color: rgba(146, 86, 220, 0.1647058824);
