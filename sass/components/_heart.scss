@@ -1,32 +1,33 @@
+.card__like {
+    position: relative;
 
-.card__like{
- position: relative;
+    &:hover .heart-solid {
+        transform: scale(1);
+    }
+
+    &:hover .heart-regular {
+        @include gradient-icon-heart;
+    }
+
+    &:hover .heart-solid-menu {
+        transform: scale(1);
+    }
 }
 
 // HOME PAGE
 
-.heart-solid{
+.heart-solid {
     position: absolute;
-    left : 0px;
+    left: 0px;
     bottom: 0px;
+    @include gradient-icon-heart;
     transform: scale(0);
     transition: 0.4s ease-in-out;
-    @include gradient-icon-heart;
 }
 
-.card__like:hover .heart-solid{
-    transform: scale(1);
-}
-
-.heart-regular{
+.heart-regular {
     transition: 0.3s ease-in;
-
 }
-
-.card__like:hover .heart-regular {
-    @include gradient-icon-heart;
-}
-
 
 // MENUS PAGES
 
@@ -37,8 +38,4 @@
     transform: scale(0);
     transition: 0.4s ease-in-out;
     @include gradient-icon-heart;
-}
-
-.card__like:hover .heart-solid-menu {
-    transform: scale(1);
 }
