@@ -35,7 +35,7 @@
     position: absolute;
     left: 0px;
     bottom: 4px;
+    @include gradient-icon-heart;
     transform: scale(0);
     transition: 0.4s ease-in-out;
-    @include gradient-icon-heart;
 }

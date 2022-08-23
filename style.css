@@ -7,6 +7,7 @@
 }
 
 button {
+  margin: auto;
   padding: 0.8rem 1.8rem;
   font-size: 1.1rem;
   font-weight: 500;
@@ -16,7 +17,6 @@ button {
   border-radius: 50px;
   border: none;
   cursor: pointer;
-  margin: auto;
 }
 button:hover {
   opacity: 0.93;
@@ -26,59 +26,56 @@ button:hover {
 .card__like {
   position: relative;
 }
-
-.heart-solid {
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  transform: scale(0);
-  transition: 0.4s ease-in-out;
-  background: -webkit-gradient(linear, left bottom, left top, from(#9356DC), to(#FF79DA));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 0px;
-}
-
 .card__like:hover .heart-solid {
   transform: scale(1);
 }
-
-.heart-regular {
-  transition: 0.3s ease-in;
-}
-
 .card__like:hover .heart-regular {
   background: -webkit-gradient(linear, left bottom, left top, from(#9356DC), to(#FF79DA));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 0px;
 }
+.card__like:hover .heart-solid-menu {
+  transform: scale(1);
+}
+
+.heart-solid {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#9356DC), to(#FF79DA));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0px;
+  transform: scale(0);
+  transition: 0.4s ease-in-out;
+}
+
+.heart-regular {
+  transition: 0.3s ease-in;
+}
 
 .heart-solid-menu {
   position: absolute;
   left: 0px;
   bottom: 4px;
-  transform: scale(0);
-  transition: 0.4s ease-in-out;
   background: -webkit-gradient(linear, left bottom, left top, from(#9356DC), to(#FF79DA));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 0px;
-}
-
-.card__like:hover .heart-solid-menu {
-  transform: scale(1);
+  transform: scale(0);
+  transition: 0.4s ease-in-out;
 }
 
 .loading {
   position: fixed;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(252, 252, 252);
-  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(252, 252, 252);
   animation: fadeOut 3s ease-out;
   animation-delay: 3s;
   animation-fill-mode: forwards;
@@ -87,10 +84,10 @@ button:hover {
 .loader {
   font-family: "Shrikhand", cursive;
   font-size: 3rem;
-  background-image: linear-gradient(to left, hsl(165deg, 56%, 74%), hsl(267deg, 66%, 60%), hsl(317deg, 100%, 74%));
-  -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to left, hsl(165deg, 56%, 74%), hsl(267deg, 66%, 60%), hsl(317deg, 100%, 74%));
+  background-clip: text;
   background-size: 400%;
   background-position: 100%;
   animation: animatedText 3s ease-in-out;
@@ -222,10 +219,10 @@ footer {
 
 .options__step {
   position: relative;
-  margin: auto;
   display: flex;
-  width: 100%;
+  margin: auto;
   padding: 1.6rem 1.2rem;
+  width: 100%;
   gap: 1.25rem;
   border-radius: 25px;
   background-color: #f6f6f6;
@@ -240,7 +237,7 @@ footer {
   width: 1.4rem;
   height: 1.4rem;
   color: #fafafa;
-  background-color: #9356DC;
+  background-color: #9356dc;
   border-radius: 100px;
   counter-increment: stepList 1;
   content: counter(stepList) " ";
@@ -249,7 +246,7 @@ footer {
   background-color: rgba(146, 86, 220, 0.1647058824);
 }
 .options__step:hover .options__step-icon {
-  color: #9356DC;
+  color: #9356dc;
   opacity: 1;
 }
 
@@ -275,15 +272,15 @@ footer {
   position: relative;
   margin: auto;
   width: 100%;
+  color: black;
+  text-decoration: none;
   background-color: white;
   border-radius: 20px 20px 20px 20px;
-  text-decoration: none;
-  color: black;
   box-shadow: 0.3px 0.2px 0.4px rgba(50, 50, 93, 0.25), 1.3px 1.1px 1.8px -1.5px rgba(50, 50, 93, 0.25), 5.6px 4.4px 7.5px -3px rgba(50, 50, 93, 0.25);
   transition: transform 0.2s;
 }
 .card:hover {
-  transform: scale(1.04);
+  transform: scale(1.02);
 }
 
 .card__img {
@@ -365,30 +362,25 @@ footer {
   gap: 3rem;
 }
 
-.menu__starters {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  opacity: 0;
-  animation: slideDown 0.8s forwards;
-  animation-delay: 0s;
-}
-
-.menu__main {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  opacity: 0;
-  animation: slideDown 0.8s forwards;
-  animation-delay: 0.3s;
-}
-
+.menu__starters,
+.menu__main,
 .menu__dessert {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   opacity: 0;
   animation: slideDown 0.8s forwards;
+}
+
+.menu__starters {
+  animation-delay: 0s;
+}
+
+.menu__main {
+  animation-delay: 0.3s;
+}
+
+.menu__dessert {
   animation-delay: 0.6s;
 }
 

@@ -1,12 +1,12 @@
 .loading {
     position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(252, 252, 252);
-    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(252, 252, 252);
     animation: fadeOut 3s ease-out;
     animation-delay: 3s;
     animation-fill-mode: forwards;
@@ -15,32 +15,32 @@
 .loader {
     font-family: $font-secondary;
     font-size: 3rem;
-    background-image: linear-gradient(to left, $clr-tertiary, $clr-primary, $clr-secondary);
-    -webkit-background-clip: text;
-    background-clip: text;
     color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to left, $clr-tertiary, $clr-primary, $clr-secondary);
+    background-clip: text;
     background-size: 400%;
     background-position: 100%;
     animation: animatedText 3s ease-in-out;
     animation-fill-mode: forwards;
-    opacity: 1; 
+    opacity: 1;
 }
 
 @keyframes animatedText {
-    0%{
+    0% {
         background-position: 0%;
     }
-    50%{
+    50% {
         background-position: -100%;
     }
-    100%{
+    100% {
         opacity: 0;
     }
 }
 
 @keyframes fadeOut {
-    100%{
+    100% {
         opacity: 0;
         z-index: -1000;
-    }  
+    }
 }
