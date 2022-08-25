@@ -123,67 +123,33 @@ Texte → `Roboto`
 
 ### Screenshots
 
-Home page 
-
 <details>
   <summary>Desktop</summary>
   <p align="center">
-    <img src="" alt=""/>
+    <img src="/img/screenshots/home-page-desktop" alt=""/>
   </p>
   <p align="center">
-    <img src="" alt=""/>
+    <img src="" alt="/img/screenshots/menu-page-desktop"/>
   </p>
 </details>
 
 <details>
   <summary>Tablette</summary>
   <p align="center">
-    <img src="" alt=""/>
+    <img src="" alt="/img/screenshots/home-page-tablet"/>
   </p>
   <p align="center">
-    <img src="" alt=""/>
-  </p>
-</details>
-
-<details>
-  <summary>Mobile</summary>
-  <p align="center">
-    <img src="" alt=""/>
-  </p>
-  <p align="center">
-    <img src="" alt=""/>
-  </p>
-</details>
-
-Menu page 
-
-<details>
-  <summary>Desktop</summary>
-  <p align="center">
-    <img src="" alt=""/>
-  </p>
-  <p align="center">
-    <img src="" alt=""/>
-  </p>
-</details>
-
-<details>
-  <summary>Tablette</summary>
-  <p align="center">
-    <img src="" alt=""/>
-  </p>
-  <p align="center">
-    <img src="" alt=""/>
+    <img src="" alt="/img/screenshots/menu-page-tablet"/>
   </p>
 </details>
 
 <details>
   <summary>Mobile</summary>
   <p align="center">
-    <img src="" alt=""/>
+    <img src="" alt="/img/screenshots/home-page-mobile"/>
   </p>
   <p align="center">
-    <img src="" alt=""/>
+    <img src="" alt="/img/screenshots/menu-page-mobile"/>
   </p>
 </details>
 
