@@ -123,6 +123,40 @@ Texte → `Roboto`
 
 ### Screenshots
 
+Home page 
+
+<details>
+  <summary>Desktop</summary>
+  <p align="center">
+    <img src="" alt=""/>
+  </p>
+  <p align="center">
+    <img src="" alt=""/>
+  </p>
+</details>
+
+<details>
+  <summary>Tablette</summary>
+  <p align="center">
+    <img src="" alt=""/>
+  </p>
+  <p align="center">
+    <img src="" alt=""/>
+  </p>
+</details>
+
+<details>
+  <summary>Mobile</summary>
+  <p align="center">
+    <img src="" alt=""/>
+  </p>
+  <p align="center">
+    <img src="" alt=""/>
+  </p>
+</details>
+
+Menu page 
+
 <details>
   <summary>Desktop</summary>
   <p align="center">
