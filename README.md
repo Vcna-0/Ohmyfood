@@ -126,30 +126,30 @@ Texte → `Roboto`
 <details>
   <summary>Desktop</summary>
   <p align="center">
-    <img src="./img/screenshots/home-page-desktop" alt=""/>
+    <img src="/img/screenshots/home-page-desktop.png" alt=""/>
   </p>
   <p align="center">
-    <img src="" alt="./img/screenshots/menu-page-desktop"/>
+    <img src="" alt="/img/screenshots/menu-page-desktop.png"/>
   </p>
 </details>
 
 <details>
   <summary>Tablette</summary>
   <p align="center">
-    <img src="" alt="/img/screenshots/home-page-tablet"/>
+    <img src="" alt="/img/screenshots/home-page-tablet.png"/>
   </p>
   <p align="center">
-    <img src="" alt="/img/screenshots/menu-page-tablet"/>
+    <img src="" alt="/img/screenshots/menu-page-tablet.png"/>
   </p>
 </details>
 
 <details>
   <summary>Mobile</summary>
   <p align="center">
-    <img src="" alt="/img/screenshots/home-page-mobile"/>
+    <img src="" alt="/img/screenshots/home-page-mobile.png"/>
   </p>
   <p align="center">
-    <img src="" alt="/img/screenshots/menu-page-mobile"/>
+    <img src="" alt="/img/screenshots/menu-page-mobile.png"/>
   </p>
 </details>
 
