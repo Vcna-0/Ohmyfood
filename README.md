@@ -129,27 +129,27 @@ Texte → `Roboto`
     <img src="/img/screenshots/home-page-desktop.png" alt=""/>
   </p>
   <p align="center">
-    <img src="" alt="/img/screenshots/menu-page-desktop.png"/>
+    <img src="/img/screenshots/menu-page-desktop.png" alt=""/>
   </p>
 </details>
 
 <details>
   <summary>Tablette</summary>
   <p align="center">
-    <img src="" alt="/img/screenshots/home-page-tablet.png"/>
+    <img src="/img/screenshots/home-page-tablet.png" alt=""/>
   </p>
   <p align="center">
-    <img src="" alt="/img/screenshots/menu-page-tablet.png"/>
+    <img src="/img/screenshots/menu-page-tablet.png" alt=""/>
   </p>
 </details>
 
 <details>
   <summary>Mobile</summary>
   <p align="center">
-    <img src="" alt="/img/screenshots/home-page-mobile.png"/>
+    <img src="/img/screenshots/home-page-mobile.png" alt=""/>
   </p>
   <p align="center">
-    <img src="" alt="/img/screenshots/menu-page-mobile.png"/>
+    <img src="/img/screenshots/menu-page-mobile.png" alt=""/>
   </p>
 </details>
 
