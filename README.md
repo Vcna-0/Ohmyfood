@@ -126,10 +126,10 @@ Texte → `Roboto`
 <details>
   <summary>Desktop</summary>
   <p align="center">
-    <img src="/img/screenshots/home-page-desktop" alt=""/>
+    <img src="./img/screenshots/home-page-desktop" alt=""/>
   </p>
   <p align="center">
-    <img src="" alt="/img/screenshots/menu-page-desktop"/>
+    <img src="" alt="./img/screenshots/menu-page-desktop"/>
   </p>
 </details>
 
