@@ -1,7 +1,5 @@
 # Projet 3 - Ohmyfood
 
-__EN COUR DE REDACTION__
-
 Ma solution au __PROJET 3 - Dynamisez une page web avec des animations CSS__ du parcours de formation __developpeur web__ chez Openclassroom.
 
 [Visiter le site](https://vcna-0.github.io/Ohmyfood/)
@@ -22,7 +20,6 @@ Ma solution au __PROJET 3 - Dynamisez une page web avec des animations CSS__ du 
 - [Livrables](#livrables)
   - [Screenshots](#screenshots)
   - [Compétences évaluées](#compétences-évaluées)
-  - [Notes sur la réalisation](#notes-sur-la-réalisation)
 - [Auteur](#auteur)
 
 
@@ -123,73 +120,43 @@ Texte → `Roboto`
 
 ### Screenshots
 
-Home page 
-
 <details>
   <summary>Desktop</summary>
   <p align="center">
-    <img src="" alt=""/>
+    <img src="/img/screenshots/home-page-desktop.png" alt=""/>
   </p>
   <p align="center">
-    <img src="" alt=""/>
+    <img src="/img/screenshots/menu-page-desktop.png" alt=""/>
   </p>
 </details>
 
 <details>
   <summary>Tablette</summary>
   <p align="center">
-    <img src="" alt=""/>
+    <img src="/img/screenshots/home-page-tablet.png" alt=""/>
   </p>
   <p align="center">
-    <img src="" alt=""/>
-  </p>
-</details>
-
-<details>
-  <summary>Mobile</summary>
-  <p align="center">
-    <img src="" alt=""/>
-  </p>
-  <p align="center">
-    <img src="" alt=""/>
-  </p>
-</details>
-
-Menu page 
-
-<details>
-  <summary>Desktop</summary>
-  <p align="center">
-    <img src="" alt=""/>
-  </p>
-  <p align="center">
-    <img src="" alt=""/>
-  </p>
-</details>
-
-<details>
-  <summary>Tablette</summary>
-  <p align="center">
-    <img src="" alt=""/>
-  </p>
-  <p align="center">
-    <img src="" alt=""/>
+    <img src="/img/screenshots/menu-page-tablet.png" alt=""/>
   </p>
 </details>
 
 <details>
   <summary>Mobile</summary>
   <p align="center">
-    <img src="" alt=""/>
+    <img src="/img/screenshots/home-page-mobile.png" alt=""/>
   </p>
   <p align="center">
-    <img src="" alt=""/>
+    <img src="/img/screenshots/menu-page-mobile.png" alt=""/>
   </p>
 </details>
 
 ### Compétences évaluées
 
-### Notes sur la réalisation
+* Utiliser un système de gestion de versions pour le suivi du projet et son hébergement
+* Mettre en œuvre des effets CSS graphiques avancés
+* Mettre en place son environnement Front-End
+* Mettre en place une structure de navigation pour un site web
+* Assurer la cohérence graphique d'un site web
 
 ## 👷 Auteur
 
