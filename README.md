@@ -22,7 +22,6 @@ Ma solution au __PROJET 3 - Dynamisez une page web avec des animations CSS__ du 
 - [Livrables](#livrables)
   - [Screenshots](#screenshots)
   - [Compétences évaluées](#compétences-évaluées)
-  - [Notes sur la réalisation](#notes-sur-la-réalisation)
 - [Auteur](#auteur)
 
 
@@ -155,7 +154,11 @@ Texte → `Roboto`
 
 ### Compétences évaluées
 
-### Notes sur la réalisation
+* Utiliser un système de gestion de versions pour le suivi du projet et son hébergement
+* Mettre en œuvre des effets CSS graphiques avancés
+* Mettre en place son environnement Front-End
+* Mettre en place une structure de navigation pour un site web
+* Assurer la cohérence graphique d'un site web
 
 ## 👷 Auteur
 
